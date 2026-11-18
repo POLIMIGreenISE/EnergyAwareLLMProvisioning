@@ -1,0 +1,11 @@
+model_key,specialisation,params_b,mle_j_per_out_token,oll_mean6,on_front
+meta-llama/llama-3.1-8b-instruct,generalist,8.030261248,0.09510991243206074,23.763729445470883,True
+meta-llama/meta-llama-3-8b-instruct,generalist,8.030261248,0.09510991243206074,20.609159446025874,False
+nvidia/openmath2-llama3.1-8b,mathematics,8.030261248,0.09510991243206074,12.751664730325508,False
+meta-llama/llama-3.1-70b-instruct,generalist,70.553706496,0.5633656270485234,43.409948245645786,True
+nvidia/llama-3.1-nemotron-70b-instruct-hf,generalist,70.553706496,0.5633656270485234,36.90717314950126,False
+meta-llama/meta-llama-3-70b-instruct,generalist,70.553706496,0.5633656270485234,36.37222412927012,False
+m42-health/llama3-med42-70b,medicine,70.553706496,0.5633656270485234,35.68301603364157,False
+aaditya/llama3-openbiollm-70b,medicine,70.0,0.5633656270485234,34.979020412011955,False
+meta-llama/llama-2-70b-chat-hf,generalist,68.976653312,0.5633656270485234,13.073695775827504,False
+meta-llama/llama-3.3-70b-instruct,generalist,70.553706496,0.6036206575024905,44.84747145129876,True

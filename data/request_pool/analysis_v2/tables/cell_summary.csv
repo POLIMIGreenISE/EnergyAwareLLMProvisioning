@@ -1,0 +1,8 @@
+source,n_cells,full_cells,smallest_cell
+dolly,6,6,50
+longbench_v1,9,9,50
+longbench_v2,14,0,3
+magpie,53,35,1
+math,5,5,50
+routerarena,39,24,2
+taco,5,5,50

@@ -1,0 +1,9 @@
+specialisation,energy + quality,energy only,neither,quality only,total
+coding,6,2,4,7,19
+finance,0,0,1,0,1
+generalist,59,14,12,68,153
+law,0,1,0,0,1
+mathematics,5,0,0,5,10
+medicine,2,4,2,0,8
+reasoning,5,0,0,0,5
+total,77,21,19,80,197

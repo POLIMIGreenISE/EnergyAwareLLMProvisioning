@@ -1,0 +1,139 @@
+{
+  "pool_version": "v2",
+  "created_utc": "2026-10-09T12:36:27+00:00",
+  "seed": 42,
+  "cell_size": 50,
+  "cell_columns": [
+    "task",
+    "domain",
+    "sampling_stratum"
+  ],
+  "max_input_tokens": 128000,
+  "tokenizer": "meta-llama/Llama-3.1-8B-Instruct",
+  "translation_instruction": "Translate the following text from English into {language}:",
+  "longbench_v1_tasks": {
+    "hotpotqa": "long_document_qa",
+    "2wikimqa": "long_document_qa",
+    "multifieldqa_en": "long_document_qa",
+    "qasper": "long_document_qa",
+    "gov_report": "summarization",
+    "multi_news": "summarization",
+    "samsum": "summarization",
+    "triviaqa": "in_context_learning",
+    "trec": "in_context_learning"
+  },
+  "longbench_v1_prompts_source": "https://github.com/THUDM/LongBench/blob/main/LongBench/config/dataset2prompt.json",
+  "sources": {
+    "routerarena": {
+      "repo": "RouteWorks/RouterArena",
+      "split": "full",
+      "revision": "a4a062ce3313b56bb09c042e1bc37b61d34e3bd8"
+    },
+    "magpie": {
+      "repo": "Magpie-Align/Magpie-Llama-3.1-Pro-300K-Filtered",
+      "split": "train",
+      "revision": "1a982eea9ece373700dd8dfd04a4de08c2578c24"
+    },
+    "math": {
+      "repo": "EleutherAI/hendrycks_math",
+      "split": [
+        "train",
+        "test"
+      ],
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3"
+    },
+    "taco": {
+      "repo": "XiaoBanni/TACO_with_solution",
+      "split": "train",
+      "revision": "c1d27565ce784104500854907dd35048c8d86b21"
+    },
+    "dolly": {
+      "repo": "databricks/databricks-dolly-15k",
+      "split": "train",
+      "revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a"
+    },
+    "longbench_v2": {
+      "repo": "zai-org/LongBench-v2",
+      "split": "train",
+      "revision": "2b48e494f2c7a2f0af81aae178e05c7e1dde0fe9"
+    },
+    "longbench_v1": {
+      "repo": "zai-org/LongBench",
+      "file": "data.zip",
+      "revision": "5e628be450b7e67fb7ae6e201bd6d8f7056f7672"
+    }
+  },
+  "dedup_priority": [
+    "math",
+    "taco",
+    "longbench_v2",
+    "longbench_v1",
+    "dolly",
+    "magpie",
+    "routerarena"
+  ],
+  "build_log": {
+    "routerarena": {
+      "available_after_source_filters": 8400,
+      "n_cells": 39,
+      "sampled": 1587,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 0,
+      "final": 1587
+    },
+    "magpie": {
+      "available_after_source_filters": 296753,
+      "n_cells": 53,
+      "sampled": 1932,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 0,
+      "final": 1932
+    },
+    "math": {
+      "available_after_source_filters": 12498,
+      "n_cells": 5,
+      "sampled": 250,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 0,
+      "final": 250
+    },
+    "taco": {
+      "available_after_source_filters": 7070,
+      "n_cells": 5,
+      "sampled": 250,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 0,
+      "final": 250
+    },
+    "dolly": {
+      "available_after_source_filters": 15011,
+      "n_cells": 6,
+      "sampled": 300,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 0,
+      "final": 300
+    },
+    "longbench_v2_filters": {
+      "loaded": 503,
+      "removed_chinese": 10,
+      "removed_certainly_over_token_limit": 116
+    },
+    "longbench_v2": {
+      "available_after_source_filters": 377,
+      "n_cells": 14,
+      "sampled": 334,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 61,
+      "final": 273
+    },
+    "longbench_v1": {
+      "available_after_source_filters": 2468,
+      "n_cells": 9,
+      "sampled": 450,
+      "removed_duplicates": 0,
+      "removed_over_token_limit": 0,
+      "final": 450
+    }
+  },
+  "n_requests": 5042
+}

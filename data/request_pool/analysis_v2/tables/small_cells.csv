@@ -1,0 +1,48 @@
+source,task,domain,sampling_stratum,n_requests,full
+longbench_v2,data_analysis,<none>,hard,3,False
+longbench_v2,data_analysis,<none>,easy,3,False
+longbench_v2,code_understanding,coding,easy,6,False
+longbench_v2,code_understanding,coding,hard,9,False
+longbench_v2,long_document_qa,humanities,easy,13,False
+longbench_v2,in_context_learning,<none>,easy,17,False
+longbench_v2,long_document_qa,humanities,hard,19,False
+longbench_v2,dialogue_qa,<none>,hard,19,False
+longbench_v2,dialogue_qa,<none>,easy,20,False
+longbench_v2,long_document_qa,social_sciences,easy,22,False
+longbench_v2,in_context_learning,<none>,hard,24,False
+longbench_v2,long_document_qa,<none>,easy,32,False
+longbench_v2,long_document_qa,social_sciences,hard,42,False
+longbench_v2,long_document_qa,<none>,hard,44,False
+magpie,data_analysis,<none>,very hard,1,False
+magpie,brainstorming,<none>,very hard,1,False
+magpie,brainstorming,<none>,very easy,2,False
+magpie,code_generation,coding,very hard,2,False
+magpie,data_analysis,<none>,very easy,2,False
+magpie,creative_writing,<none>,very hard,2,False
+magpie,creative_writing,<none>,very easy,3,False
+magpie,role_playing,<none>,very hard,3,False
+magpie,advice_seeking,<none>,very hard,5,False
+magpie,qa,<none>,very hard,7,False
+magpie,editing,<none>,very easy,7,False
+magpie,planning,<none>,very easy,8,False
+magpie,role_playing,<none>,very easy,9,False
+magpie,reasoning,<none>,very easy,13,False
+magpie,reasoning,<none>,very hard,19,False
+magpie,code_generation,coding,very easy,20,False
+magpie,advice_seeking,<none>,very easy,33,False
+magpie,editing,<none>,hard,45,False
+routerarena,qa,mathematics,medium,2,False
+routerarena,reasoning,social_sciences,hard,5,False
+routerarena,reasoning,social_sciences,medium,9,False
+routerarena,data_analysis,social_sciences,easy,9,False
+routerarena,long_document_qa,humanities,medium,14,False
+routerarena,reasoning,humanities,hard,19,False
+routerarena,long_document_qa,humanities,easy,22,False
+routerarena,data_analysis,social_sciences,medium,24,False
+routerarena,qa,mathematics,easy,30,False
+routerarena,reasoning,general,easy,33,False
+routerarena,data_analysis,social_sciences,hard,41,False
+routerarena,qa,general,hard,43,False
+routerarena,qa,coding,hard,44,False
+routerarena,code_generation,coding,easy,45,False
+routerarena,reasoning,social_sciences,easy,47,False

@@ -1,0 +1,12 @@
+,models
+members,197
+config.json read,197
+energy (any source),98
+energy measured directly,31
+quality (any benchmark),157
+price,39
+energy + quality,77
+energy measured directly + quality,17
+"MMLU-Pro (TIGER-Lab), overall",57
+"MMLU-Pro (TIGER-Lab), per subject",46
+energy + quality + price,16

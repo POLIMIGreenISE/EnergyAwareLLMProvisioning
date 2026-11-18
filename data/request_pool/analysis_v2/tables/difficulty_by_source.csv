@@ -1,0 +1,23 @@
+source,difficulty_scale,difficulty_raw,n_requests
+dolly,none,,300
+longbench_v1,none,,450
+longbench_v2,longbench_easy_hard,easy,113
+longbench_v2,longbench_easy_hard,hard,160
+magpie,magpie_very_easy_to_very_hard,easy,550
+magpie,magpie_very_easy_to_very_hard,hard,545
+magpie,magpie_very_easy_to_very_hard,medium,550
+magpie,magpie_very_easy_to_very_hard,very easy,197
+magpie,magpie_very_easy_to_very_hard,very hard,90
+math,math_level_1_to_5,Level 1,50
+math,math_level_1_to_5,Level 2,50
+math,math_level_1_to_5,Level 3,50
+math,math_level_1_to_5,Level 4,50
+math,math_level_1_to_5,Level 5,50
+routerarena,routerarena_easy_medium_hard,easy,536
+routerarena,routerarena_easy_medium_hard,hard,552
+routerarena,routerarena_easy_medium_hard,medium,499
+taco,taco_easy_to_very_hard,EASY,50
+taco,taco_easy_to_very_hard,HARD,50
+taco,taco_easy_to_very_hard,MEDIUM,50
+taco,taco_easy_to_very_hard,MEDIUM_HARD,50
+taco,taco_easy_to_very_hard,VERY_HARD,50

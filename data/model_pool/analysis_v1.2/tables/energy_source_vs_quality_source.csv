@@ -1,0 +1,9 @@
+,,models,Open LLM Leaderboard,MMLU-Pro (TIGER-Lab),EvalPlus,price (OpenRouter)
+"ML.ENERGY (H100, batch 128)",direct,22,3,11,1,14
+"ML.ENERGY (H100, batch 128)",inherited,12,7,4,3,2
+"LLM-Perf (A100, batch 1)",direct,0,0,0,0,0
+"LLM-Perf (A100, batch 1)",inherited,12,12,5,0,0
+"AI Energy Score, Feb 2025 (H100, batch 1)",direct,5,5,3,0,2
+"AI Energy Score, Feb 2025 (H100, batch 1)",inherited,55,45,16,13,4
+"AI Energy Score, Dec 2025 (H100, batch 1)",direct,4,1,1,0,1
+"AI Energy Score, Dec 2025 (H100, batch 1)",inherited,26,16,13,3,10

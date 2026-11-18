@@ -1,0 +1,3 @@
+,specialist,domain,params_b,subject,specialist_score,best_peer,best_peer_score,specialist_overall,best_peer_overall,specialist_wins_subject
+0,deepseek-ai/deepseek-coder-v2-instruct,coding,235.7,computer_science,68.8,mistralai/mistral-large-instruct-2411,76.8,63.6,67.9,False
+1,mistralai/mathstral-7b-v0.1,mathematics,7.2,math,47.7,qwen/qwen2-7b-instruct,58.0,42.0,47.2,False

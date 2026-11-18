@@ -1,0 +1,20 @@
+task,(to classify),coding,general,humanities,mathematics,natural_sciences,social_sciences
+advice_seeking,188,0,0,0,0,0,0
+brainstorming,203,0,0,0,0,0,0
+classification,50,0,0,0,0,0,0
+code_generation,0,567,0,0,0,0,0
+code_understanding,0,15,0,0,0,0,0
+creative_writing,205,0,0,0,0,0,0
+data_analysis,159,0,0,0,0,0,74
+dialogue_qa,39,0,0,0,0,0,0
+editing,152,0,0,0,0,0,0
+in_context_learning,191,0,0,0,0,0,0
+information_extraction,50,0,0,0,0,0,0
+long_document_qa,226,0,0,118,0,0,64
+math_problem_solving,0,0,0,0,650,0,0
+planning,158,0,0,0,0,0,0
+qa,257,144,143,150,32,150,150
+reasoning,182,0,133,119,0,0,61
+role_playing,162,0,0,0,0,0,0
+summarization,200,0,0,0,0,0,0
+translation,0,0,0,50,0,0,0

@@ -1,0 +1,9 @@
+,available_after_source_filters,n_cells,sampled,removed_duplicates,removed_over_token_limit,final
+routerarena,8400,39,1587,0,0,1587
+magpie,296753,53,1932,0,0,1932
+math,12498,5,250,0,0,250
+taco,7070,5,250,0,0,250
+dolly,15011,6,300,0,0,300
+longbench_v2,377,14,334,0,61,273
+longbench_v1,2468,9,450,0,0,450
+total,342577,131,5103,0,61,5042

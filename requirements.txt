@@ -1,0 +1,13 @@
+numpy
+pandas
+pyarrow
+matplotlib
+requests
+scikit-learn
+torch
+transformers>=4.44
+accelerate
+datasets>=3.0
+huggingface_hub
+mlenergy-data==0.4.0
+pulp==2.9.0

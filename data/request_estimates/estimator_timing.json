@@ -1,0 +1,9 @@
+{
+  "n_requests": 1000,
+  "batch_size": 32,
+  "gpu_seconds": 14.710772152999994,
+  "gpu_ms_per_request": 14.710772152999995,
+  "cpu_seconds": 504.60126342600006,
+  "cpu_ms_per_request": 504.60126342600006,
+  "same_as_saved_estimates": 1.0
+}

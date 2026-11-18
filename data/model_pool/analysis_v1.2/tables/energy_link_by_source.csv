@@ -1,0 +1,4 @@
+,"ML.ENERGY (H100, batch 128)","LLM-Perf (A100, batch 1)","AI Energy Score, Feb 2025 (H100, batch 1)","AI Energy Score, Dec 2025 (H100, batch 1)"
+direct,22,0,5,4
+inherited,12,12,55,26
+none,163,185,137,167

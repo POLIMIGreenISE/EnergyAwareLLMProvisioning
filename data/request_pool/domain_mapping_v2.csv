@@ -1,0 +1,50 @@
+source,domain_raw,domain,n_requests
+dolly,,,300
+longbench_v1,,,450
+longbench_v2,Academic,,57
+longbench_v2,Agent history QA,,20
+longbench_v2,Code repo QA,coding,15
+longbench_v2,Detective,humanities,16
+longbench_v2,Dialogue history QA,,19
+longbench_v2,Event ordering,,3
+longbench_v2,Financial,social_sciences,20
+longbench_v2,Governmental,social_sciences,18
+longbench_v2,Legal,social_sciences,26
+longbench_v2,Literary,humanities,16
+longbench_v2,Many-shot learning,,16
+longbench_v2,Multi-news,,16
+longbench_v2,Table QA,,6
+longbench_v2,User guide QA,,25
+magpie,Advice seeking,,188
+magpie,Brainstorming,,153
+magpie,Coding & Debugging,coding,172
+magpie,Creative writing,,155
+magpie,Data analysis,,153
+magpie,Editing,,152
+magpie,Information seeking,,207
+magpie,Math,mathematics,250
+magpie,Planning,,158
+magpie,Reasoning,,182
+magpie,Role playing,,162
+math,Algebra,mathematics,56
+math,Counting & Probability,mathematics,31
+math,Geometry,mathematics,21
+math,Intermediate Algebra,mathematics,49
+math,Number Theory,mathematics,24
+math,Prealgebra,mathematics,39
+math,Precalculus,mathematics,30
+routerarena,"0 Computer science, information, and general works",coding,289
+routerarena,"0 Computer science, information, and general works",general,111
+routerarena,1 Philosophy and psychology,humanities,102
+routerarena,1 Philosophy and psychology,social_sciences,35
+routerarena,3 Social Science,social_sciences,239
+routerarena,4 Language,humanities,105
+routerarena,5 Science,mathematics,182
+routerarena,5 Science,natural_sciences,57
+routerarena,6 Technology,natural_sciences,93
+routerarena,6 Technology,social_sciences,11
+routerarena,7 Arts & recreation,general,165
+routerarena,7 Arts & recreation,humanities,30
+routerarena,8 Literature,humanities,115
+routerarena,9 History,humanities,53
+taco,code,coding,250

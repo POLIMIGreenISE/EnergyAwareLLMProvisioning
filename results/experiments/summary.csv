@@ -1,0 +1,24 @@
+experiment,base_N,largest_saving,more_than_one_model,no_feasible_single_model
+E7,own,2.37% at N = 1000,"N = 500, N = 1000, N = 2000, N = 4000","N = 2000, N = 4000"
+P,200,9.06% at 0 W,0 W,none
+P,1000,24.06% at 0 W,"0 W, 25 W, 49.9 W (base)",none
+E1,200,0.00% at 15%,"0%, 5%, 10%, 15%","0%, 5%, 10%"
+E1,1000,2.37% at 20% (base),"0%, 5%, 10%, 15%, 20% (base)","0%, 5%, 10%"
+E3a,200,2.00% at 0.30/0.50/0.80,"0.30/0.50/0.80, 0.60/0.85/0.98",none
+E3a,1000,35.19% at 0.30/0.50/0.80,"0.30/0.50/0.80, 0.40/0.65/0.90, 0.50/0.75/0.95 (base), 0.60/0.85/0.98",0.60/0.85/0.98
+E3b,200,0.00% at 20/60/20 (base),10/30/60,none
+E3b,1000,27.75% at 80/10/10,"20/60/20 (base), 80/10/10, 10/30/60",10/30/60
+E2,200,1.34% at 2 min,"1 min, 2 min",1 min
+E2,1000,7.41% at 5 min,"2 min, 5 min, 10 min (base), 20 min, 30 min","1 min, 2 min"
+BC,200,0.00% at 32,none,none
+BC,1000,7.56% at 32,"32, 64, 128 (base), 512",none
+E6,200,0.00% at none (base),none,none
+E6,1000,2.39% at both,"none (base), 8B, Llama-3.3-70B, both",none
+SP,200,"0.00% at health, base thresholds","health, base thresholds, health, strict thresholds","health, strict thresholds"
+SP,1000,"0.00% at health, base thresholds","health, strict thresholds","health, strict thresholds"
+HS,200,"0.00% at health only, no specialist","health only, no specialist, health only, 70% of best, health only, 80% of best, health only, 90% of best",none
+HS,1000,"14.62% at health only, 80% of best","health only, 80% of best, health only, 90% of best, half health, no specialist, half health, 80% of best, half health, 90% of best, half health, 100% of best",none
+SPL3,200,"0.00% at health, base thresholds","health, base thresholds, health, strict thresholds, half health",half health
+SPL3,1000,"0.00% at health, base thresholds","health, base thresholds, health, strict thresholds, half health",half health
+S,200,0.00% at base,none,none
+S,1000,2.62% at weights 0.3/0.7,"base, weights 0.3/0.7, weights 0.7/0.3, alpha 0.25, alpha 0.75, rho 50, rho 300",none

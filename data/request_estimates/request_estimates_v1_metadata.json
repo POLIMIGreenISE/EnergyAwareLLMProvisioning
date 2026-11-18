@@ -1,0 +1,117 @@
+{
+  "method": "S3 length-bucket classifier (Jin et al., NeurIPS 2023)",
+  "classifier": "distilbert-base-uncased",
+  "buckets": "equal-frequency",
+  "bucket_edges": [
+    1.0,
+    37.0,
+    98.0,
+    213.0,
+    311.0,
+    383.0,
+    441.0,
+    511.0,
+    602.0,
+    710.6000000000004,
+    3826.0
+  ],
+  "bucket_values": [
+    16.59568909209667,
+    64.98305084745763,
+    150.62362102530824,
+    267.3040364583333,
+    347.33679428942247,
+    412.5215404699739,
+    473.75,
+    555.2029831387808,
+    651.3193005181347,
+    956.5942782834851
+  ],
+  "max_tokens_read": 512,
+  "truncation": "first and last tokens",
+  "epochs": 3,
+  "training": {
+    "magpie": 7885,
+    "lmsys": 7490
+  },
+  "validation_errors": {
+    "MAE_tokens": {
+      "global median": 220.6631,
+      "regression on input length": 243.1404,
+      "DistilBERT buckets (S3)": 168.3273
+    },
+    "median_rel_error": {
+      "global median": 0.4025,
+      "regression on input length": 0.5567,
+      "DistilBERT buckets (S3)": 0.383
+    },
+    "total_token_error": {
+      "global median": -0.0332,
+      "regression on input length": -0.3749,
+      "DistilBERT buckets (S3)": 0.1129
+    }
+  },
+  "chosen": "DistilBERT buckets (S3)",
+  "test_errors_magpie": {
+    "global median": {
+      "requests": 1929.0,
+      "MAE_tokens": 198.9575,
+      "median_rel_error": 0.2907,
+      "total_token_error": -0.3176
+    },
+    "regression on input length": {
+      "requests": 1929.0,
+      "MAE_tokens": 297.4089,
+      "median_rel_error": 0.504,
+      "total_token_error": -0.5268
+    },
+    "DistilBERT buckets (S3)": {
+      "requests": 1929.0,
+      "MAE_tokens": 179.7259,
+      "median_rel_error": 0.2314,
+      "total_token_error": 0.0041
+    }
+  },
+  "exploratory_human_references": {
+    "dolly": {
+      "requests": 300,
+      "median_estimate": 150.6236,
+      "median_reference": 50.0,
+      "sum_estimate": 72599.6567,
+      "sum_reference": 28509.0,
+      "estimate_over_reference": 2.5466
+    },
+    "math": {
+      "requests": 250,
+      "median_estimate": 956.5943,
+      "median_reference": 129.5,
+      "sum_estimate": 206606.0629,
+      "sum_reference": 43073.0,
+      "estimate_over_reference": 4.7966
+    },
+    "routerarena": {
+      "requests": 50,
+      "median_estimate": 16.5957,
+      "median_reference": 53.0,
+      "sum_estimate": 3111.2873,
+      "sum_reference": 4052.0,
+      "estimate_over_reference": 0.7678
+    },
+    "taco": {
+      "requests": 250,
+      "median_estimate": 956.5943,
+      "median_reference": 209.5,
+      "sum_estimate": 170750.6208,
+      "sum_reference": 95181.0,
+      "estimate_over_reference": 1.794
+    }
+  },
+  "count_tokenizer": "meta-llama/Llama-3.1-8B-Instruct",
+  "seed": 42,
+  "excluded_sources": [
+    "longbench_v1",
+    "longbench_v2"
+  ],
+  "failed_generation_tokens": 3900,
+  "failure_rule_source": "magpie"
+}

@@ -1,0 +1,4 @@
+,n,mean,median,p90,p99,max,over_limit
+lmsys (external),10000,86,29,278,627,1228,2.7%
+magpie (external),10000,106,63,237,723,1283,2.5%
+ALL,20000,96,47,257,656,1283,2.6%

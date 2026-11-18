@@ -1,0 +1,5 @@
+# classifier weights written by 03_length_estimator.ipynb (about 250 MB)
+data/request_estimates/length_classifier/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

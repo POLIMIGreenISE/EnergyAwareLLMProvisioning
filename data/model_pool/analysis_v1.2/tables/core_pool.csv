@@ -1,0 +1,10 @@
+model_key,core_role,params_b,weights_gb,gpus_needed_est,mle_num_gpus,context_window,mle_link,mle_donor,mle_j_per_out_token,mle_b8_j_per_out_token,mle_avg_output_len,oll_math_lvl_5,oll_mmlu_pro,oll_gpqa,oll_ifeval,oll_bbh,oll_musr,price_out_usd_per_mtok
+aaditya/llama3-openbiollm-70b,medicine,70.0,,,4.0,8192.0,inherited,meta-llama/llama-3.1-70b-instruct,0.563,3.759,358.93,19.713,42.967,9.732,75.967,47.147,14.348,
+m42-health/llama3-med42-70b,medicine,70.554,141.107,4.0,4.0,8192.0,inherited,meta-llama/llama-3.1-70b-instruct,0.563,3.759,358.93,22.583,44.029,12.975,62.911,52.971,18.629,
+meta-llama/llama-3.1-70b-instruct,generalist,70.554,141.107,4.0,4.0,131072.0,direct,meta-llama/llama-3.1-70b-instruct,0.563,3.759,358.93,38.066,47.88,14.206,86.689,55.928,17.691,0.4
+meta-llama/llama-3.1-8b-instruct,generalist,8.03,16.061,1.0,1.0,131072.0,direct,meta-llama/llama-3.1-8b-instruct,0.095,0.455,404.59,15.559,31.091,8.725,49.217,29.379,8.611,0.08
+meta-llama/llama-3.3-70b-instruct,generalist,70.554,141.107,4.0,4.0,131072.0,direct,meta-llama/llama-3.3-70b-instruct,0.604,3.847,411.401,48.338,48.129,10.515,89.976,56.561,15.566,0.5
+meta-llama/meta-llama-3-70b-instruct,generalist,70.554,141.107,4.0,4.0,8192.0,inherited,meta-llama/llama-3.1-70b-instruct,0.563,3.759,358.93,24.471,46.744,4.922,80.991,50.185,10.921,
+meta-llama/meta-llama-3-8b-instruct,generalist,8.03,16.061,1.0,1.0,8192.0,inherited,meta-llama/llama-3.1-8b-instruct,0.095,0.455,404.59,9.139,28.792,5.705,47.823,26.795,5.401,
+nvidia/llama-3.1-nemotron-70b-instruct-hf,generalist,70.554,141.107,4.0,4.0,131072.0,inherited,meta-llama/llama-3.1-70b-instruct,0.563,3.759,358.93,42.674,43.539,1.119,73.807,47.11,13.195,
+nvidia/openmath2-llama3.1-8b,mathematics,8.03,16.061,1.0,1.0,131072.0,inherited,meta-llama/llama-3.1-8b-instruct,0.095,0.455,404.59,26.737,6.148,2.013,23.306,16.294,2.011,

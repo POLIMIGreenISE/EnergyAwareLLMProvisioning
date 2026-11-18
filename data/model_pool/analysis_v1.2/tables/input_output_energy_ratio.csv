@@ -1,0 +1,9 @@
+,output J / input J (LLM-Perf)
+count,35.0
+mean,148.5
+std,30.8
+min,63.6
+10%,115.2
+50%,149.2
+90%,194.0
+max,201.0

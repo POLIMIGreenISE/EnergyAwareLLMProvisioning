@@ -1,0 +1,78 @@
+model_key,specialisation,params_b,params_active_b,context_window,energy_sources,mle_j_per_out_token,mle_b8_j_per_out_token,llmperf_j_per_in_token,llmperf_j_per_out_token,aies_feb25_j_per_query,aies_dec25_j_per_query,oll_math_lvl_5,oll_mmlu_pro,oll_ifeval,evalplus_humaneval_plus,mmlupro_tiger_overall,mmlupro_tiger_source,price_in_usd_per_mtok,price_out_usd_per_mtok
+deepseek-ai/deepseek-coder-6.7b-instruct,coding,6.7405,6.7405,16384.0,aies_feb25:inherited(meta-llama/llama-2-7b-hf),,,,,59.1876,,,,,71.3,,,,
+google/codegemma-7b-it,coding,8.5377,8.5377,8192.0,aies_feb25:inherited(google/gemma-7b),,,,,68.04,,,,,51.8,,,,
+01-ai/yi-coder-9b-chat,coding,8.8294,8.8294,131072.0,aies_feb25:inherited(01-ai/yi-1.5-9b),,,,,82.8036,,4.003,15.8355,48.1704,,,,,
+qwen/qwen2.5-coder-14b-instruct,coding,14.77,14.77,32768.0,aies_dec25:inherited(qwen/qwen2.5-coder-14b),,,,,,97.632,32.4773,32.6611,69.0756,,,,,
+qwen/qwen2.5-coder-32b-instruct,coding,32.7639,32.7639,32768.0,"aies_feb25:inherited(qwen/qwq-32b-preview), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-qwen-32b)",,,,,196.4016,131.904,49.5468,37.9248,72.6527,87.2,,,0.66,1.0
+codellama/codellama-70b-instruct-hf,coding,68.9769,70.0,4096.0,"mle:inherited(meta-llama/llama-3.1-70b-instruct), aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,,,,65.9,,,,
+huggingfacetb/smollm-135m-instruct,generalist,0.1345,0.1345,2048.0,aies_feb25:inherited(huggingfacetb/smollm-135m),,,,,26.208,,0.5287,1.9559,12.1401,,,,,
+huggingfacetb/smollm2-135m-instruct,generalist,0.1345,0.1345,8192.0,aies_feb25:inherited(huggingfacetb/smollm-135m),,,,,26.208,,1.435,1.0232,5.9252,,,,,
+huggingfacetb/smollm-360m-instruct,generalist,0.3618,0.3618,2048.0,aies_feb25:inherited(huggingfacetb/smollm-360m),,,,,29.142,,1.8127,1.8451,19.5165,,,,,
+huggingfacetb/smollm2-360m-instruct,generalist,0.3618,0.3618,8192.0,aies_feb25:inherited(huggingfacetb/smollm-360m),,,,,29.142,,0.8308,1.4018,8.3032,,,,,
+qwen/qwen1.5-0.5b-chat,generalist,0.6196,0.6196,32768.0,llmperf:inherited(qwen/qwen1.5-0.5b),,,0.0119,2.3265,,,0.6798,2.3622,18.0727,,,,,
+huggingfacetb/smollm-1.7b-instruct,generalist,1.7114,1.7114,2048.0,aies_feb25:inherited(huggingfacetb/smollm2-1.7b-instruct),,,,,27.7488,,2.1148,1.8451,23.4783,,,,,
+huggingfacetb/smollm2-1.7b-instruct,generalist,1.7114,1.7114,8192.0,aies_feb25:direct,,,,,27.7488,,5.8157,11.7077,53.6784,,,,,
+qwen/qwen1.5-1.8b-chat,generalist,1.8368,1.8368,32768.0,llmperf:inherited(qwen/qwen1.5-1.8b),,,0.0169,2.8044,,,1.9637,8.928,20.191,,,,,
+google/gemma-1.1-2b-it,generalist,2.5062,2.5062,8192.0,aies_feb25:inherited(google/gemma-2b),,,,,31.248,,1.8127,5.3727,30.6748,17.7,,,,
+google/gemma-2b-it,generalist,2.5062,2.5062,8192.0,aies_feb25:inherited(google/gemma-2b),,,,,31.248,,2.0393,3.9229,26.903,15.2,,,,
+google/gemma-2-2b-it,generalist,2.6143,2.6143,8192.0,aies_feb25:direct,,,,,67.1004,,0.0755,17.2207,56.6834,,0.156,Self-Reported,,
+google/gemma-2-2b-jpn-it,generalist,2.6143,2.6143,8192.0,aies_feb25:inherited(google/gemma-2-2b-it),,,,,67.1004,,4.7583,16.2973,52.884,,,,,
+google/gemma-3-4b-it,generalist,4.3001,4.3001,,aies_dec25:inherited(google/gemma-3-4b-pt),,,,,,123.7921,,,,,0.436,Self-Reported,0.05,0.1
+01-ai/yi-1.5-6b-chat,generalist,6.061,6.061,4096.0,llmperf:inherited(01-ai/yi-6b),,,0.0325,5.2034,,,16.2387,24.3684,51.4527,,0.3823,TIGER-Lab,,
+01-ai/yi-6b-chat,generalist,6.061,6.061,4096.0,llmperf:inherited(01-ai/yi-6b),,,0.0325,5.2034,,,1.3595,22.9,33.9521,,0.2884,TIGER-Lab,,
+meta-llama/llama-2-7b-chat-hf,generalist,6.7384,6.7384,4096.0,aies_feb25:inherited(meta-llama/llama-2-7b-hf),,,,,59.1876,,1.9637,7.6444,39.8648,,,,,
+ibm-granite/granite-7b-instruct,generalist,6.7385,6.7385,4096.0,aies_feb25:inherited(meta-llama/llama-2-7b-hf),,,,,59.1876,,2.0393,14.2934,29.7231,,,,,
+allenai/olmo-7b-instruct-hf,generalist,6.8881,6.8881,2048.0,aies_feb25:inherited(allenai/olmo-1.7-7b-hf),,,,,60.5916,,1.3595,8.7249,34.7265,,,,,
+tiiuae/falcon-7b-instruct,generalist,7.2172,7.2172,,aies_feb25:inherited(tiiuae/falcon-7b),,,,,57.15,,1.2085,1.725,19.6889,,,,,
+mistralai/mistral-7b-instruct-v0.1,generalist,7.2417,7.2417,32768.0,aies_feb25:inherited(berkeley-nest/starling-lm-7b-alpha),,,,,68.4396,,2.2659,15.7155,44.8706,,0.2575,TIGER-Lab,,
+mistralai/mistral-7b-instruct-v0.2,generalist,7.2417,7.2417,32768.0,aies_feb25:inherited(berkeley-nest/starling-lm-7b-alpha),,,,,68.4396,,3.0211,19.0769,54.9623,36.0,0.3084,TIGER-Lab,,
+mistralai/mistral-7b-instruct-v0.3,generalist,7.248,7.248,32768.0,aies_feb25:inherited(berkeley-nest/starling-lm-7b-alpha),,,,,68.4396,,3.852,23.057,54.6525,,,,,
+qwen/qwen1.5-7b-chat,generalist,7.7213,7.7213,32768.0,llmperf:inherited(qwen/qwen1.5-7b),,,0.036,5.4636,,,6.2689,21.6811,43.7116,,0.2906,TIGER-Lab,,
+mistralai/ministral-8b-instruct-2410,generalist,8.0198,8.0198,32768.0,aies_feb25:direct,,,,,75.15,,19.5619,25.458,58.964,,0.3793,TIGER-Lab,,
+meta-llama/llama-3.1-8b-instruct,generalist,8.0303,8.0,131072.0,"mle:direct, aies_feb25:inherited(meta-llama/llama-3.1-8b)",0.0951,0.4548,,,62.5536,,15.5589,31.0912,49.2171,62.8,0.4425,TIGER-Lab,0.05,0.08
+meta-llama/meta-llama-3-8b-instruct,generalist,8.0303,8.0,8192.0,"mle:inherited(meta-llama/llama-3.1-8b-instruct), aies_feb25:inherited(meta-llama/llama-3.1-8b)",0.0951,0.4548,,,62.5536,,9.139,28.7917,47.8232,56.7,0.4098,TIGER-Lab,,
+google/gemma-1.1-7b-it,generalist,8.5377,8.5377,8192.0,aies_feb25:inherited(google/gemma-7b),,,,,68.04,,4.9094,17.5994,50.3911,35.4,,,,
+google/gemma-7b-it,generalist,8.5377,8.5377,8192.0,aies_feb25:inherited(google/gemma-7b),,,,,68.04,,2.9456,7.7183,38.6832,25.0,,,,
+01-ai/yi-1.5-9b-chat,generalist,8.8294,8.8294,4096.0,aies_feb25:inherited(01-ai/yi-1.5-9b),,,,,82.8036,,22.5831,33.0581,60.4553,,0.4595,TIGER-Lab,,
+01-ai/yi-1.5-9b-chat-16k,generalist,8.8294,8.8294,16384.0,aies_feb25:inherited(01-ai/yi-1.5-9b),,,,,82.8036,,17.8248,33.2613,42.1404,,,,,
+google/gemma-3-12b-it,generalist,12.1873,12.0,,mle:direct,0.1661,0.7021,,,,,,,,,0.606,Self-Reported,0.05,0.15
+mistralai/mistral-nemo-instruct-2407,generalist,12.2478,12.2478,131072.0,aies_dec25:direct,,,,,,83.484,12.6888,27.9699,63.8025,,0.4481,TIGER-Lab,0.029,0.03
+meta-llama/llama-2-13b-chat-hf,generalist,13.0159,13.0159,4096.0,aies_feb25:inherited(meta-llama/llama-2-13b-hf),,,,,93.9672,,1.3595,10.2578,39.8473,,,,,
+microsoft/phi-3-medium-128k-instruct,generalist,13.9602,13.9602,131072.0,"aies_feb25:inherited(microsoft/phi-4), aies_dec25:inherited(microsoft/phi-4-reasoning-plus)",,,,,103.4676,66.312,19.1843,41.24,60.4003,,0.5191,TIGER-Lab,,
+microsoft/phi-3-medium-4k-instruct,generalist,13.9602,13.9602,4096.0,"aies_feb25:inherited(microsoft/phi-4), aies_dec25:inherited(microsoft/phi-4-reasoning-plus)",,,,,103.4676,66.312,19.5619,40.8429,64.2271,,0.557,TIGER-Lab,,
+qwen/qwen1.5-14b-chat,generalist,14.1673,14.1673,32768.0,llmperf:inherited(qwen/qwen2-beta-14b),,,0.0606,8.3354,,,15.2568,29.0872,47.6808,,0.3802,TIGER-Lab,,
+qwen/qwen1.5-moe-a2.7b-chat,generalist,14.3158,14.3158,32768.0,llmperf:inherited(qwen/qwen1.5-moe-a2.7b),,,0.1702,28.1972,,,6.3444,21.3671,37.9539,,,,,
+microsoft/phi-4,generalist,14.6595,14.6595,16384.0,"aies_feb25:direct, aies_dec25:inherited(microsoft/phi-4-reasoning-plus)",,,,,103.4676,66.312,31.6465,47.6304,5.8527,,0.704,Self-Reported,0.07,0.14
+qwen/qwen2.5-14b-instruct,generalist,14.77,14.77,32768.0,aies_dec25:inherited(qwen/qwen2.5-coder-14b),,,,,,97.632,54.7583,43.3825,81.5778,,,,,
+qwen/qwen2.5-14b-instruct-1m,generalist,14.77,14.77,1010000.0,aies_dec25:inherited(qwen/qwen2.5-coder-14b),,,,,,97.632,53.0211,42.773,84.1356,,,,,
+internlm/internlm2_5-20b-chat,generalist,19.8611,19.8611,32768.0,llmperf:inherited(internlm/internlm2-20b),,,0.0883,10.3024,,,40.7855,33.3075,70.0998,,,,,
+google/gemma-3-27b-it,generalist,27.4324,27.0,,"mle:direct, aies_dec25:inherited(google/gemma-3-27b-pt)",0.3062,1.5108,,,,181.476,,,,,0.675,Self-Reported,0.08,0.45
+qwen/qwen1.5-32b-chat,generalist,32.5122,32.5122,32768.0,llmperf:inherited(qwen/qwen1.5-32b),,,0.125,14.697,,,19.5619,38.4142,55.322,,,,,
+qwen/qwen2.5-32b-instruct,generalist,32.7639,32.7639,32768.0,"aies_feb25:inherited(qwen/qwq-32b-preview), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-qwen-32b)",,,,,196.4016,131.904,62.5378,51.8506,83.4612,,,,,
+01-ai/yi-1.5-34b-chat,generalist,34.3889,34.3889,4096.0,"llmperf:inherited(01-ai/yi-34b), aies_feb25:inherited(01-ai/yi-1.5-34b)",,,0.1473,15.0277,201.8844,,27.719,39.1161,60.6676,,0.5229,TIGER-Lab,,
+01-ai/yi-1.5-34b-chat-16k,generalist,34.3889,34.3889,16384.0,"llmperf:inherited(01-ai/yi-34b), aies_feb25:inherited(01-ai/yi-1.5-34b)",,,0.1473,15.0277,201.8844,,21.3746,39.3839,45.645,,,,,
+01-ai/yi-34b-chat,generalist,34.3889,34.3889,4096.0,"llmperf:inherited(01-ai/yi-34b), aies_feb25:inherited(01-ai/yi-1.5-34b)",,,0.1473,15.0277,201.8844,,6.2689,34.3695,46.9889,,,,,
+mistralai/mixtral-8x7b-instruct-v0.1,generalist,46.7028,46.7028,32768.0,aies_feb25:inherited(mistralai/mixtral-8x7b-v0.1),,,,,2215.404,,9.139,29.9091,55.9914,39.6,0.4327,TIGER-Lab,,
+meta-llama/llama-2-70b-chat-hf,generalist,68.9767,70.0,4096.0,"mle:inherited(meta-llama/llama-3.1-70b-instruct), aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,2.9456,15.9187,49.5792,,,,,
+meta-llama/llama-3.1-70b-instruct,generalist,70.5537,70.0,131072.0,"mle:direct, aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,38.0665,47.8797,86.6885,,0.6284,TIGER-Lab,0.4,0.4
+meta-llama/llama-3.3-70b-instruct,generalist,70.5537,70.0,131072.0,"mle:direct, aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.6036,3.8469,,,5934.618,178.308,48.3384,48.1291,89.9758,,0.6592,TIGER-Lab,0.22,0.5
+meta-llama/meta-llama-3-70b-instruct,generalist,70.5537,70.0,8192.0,"mle:inherited(meta-llama/llama-3.1-70b-instruct), aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,24.4713,46.7439,80.9908,72.0,0.562,TIGER-Lab,,
+nvidia/llama-3.1-nemotron-70b-instruct-hf,generalist,70.5537,70.0,131072.0,"mle:inherited(meta-llama/llama-3.1-70b-instruct), aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,42.6737,43.5395,73.8067,,0.6278,TIGER-Lab,,
+nvidia/aceinstruct-72b,generalist,72.7062,72.7062,131072.0,aies_feb25:inherited(qwen/qwen2.5-72b-instruct),,,,,6730.3908,,62.6133,43.0408,71.1889,,,,,
+qwen/qwen2-72b-instruct,generalist,72.7062,72.7062,32768.0,aies_feb25:inherited(qwen/qwen2.5-72b-instruct),,,,,6730.3908,,41.7674,48.9232,79.8917,,0.6438,TIGER-Lab,,
+qwen/qwen2.5-72b-instruct,generalist,72.7062,72.7062,32768.0,aies_feb25:direct,,,,,6730.3908,,59.8187,51.3981,86.3838,,,,0.36,0.4
+meta-llama/llama-4-scout-17b-16e-instruct,generalist,108.6418,17.0,10485760.0,mle:direct,0.654,3.9773,,,,,,,,,0.743,Self-Reported,0.1,0.3
+qwen/qwen3-235b-a22b-instruct-2507,generalist,235.0936,22.0,262144.0,"mle:direct, aies_dec25:inherited(qwen/qwen3-235b-a22b)",1.4862,7.2926,,,,1100.916,,,,,0.83,Self-Reported,0.09,0.55
+meta-llama/llama-4-maverick-17b-128e-instruct,generalist,401.5838,17.0,1048576.0,mle:inherited(meta-llama/llama-4-maverick-17b-128e-instruct-fp8),0.7573,2.8045,,,,,,,,,0.805,Self-Reported,0.1875,0.6525
+mistralai/mathstral-7b-v0.1,mathematics,7.248,7.248,32768.0,aies_feb25:inherited(berkeley-nest/starling-lm-7b-alpha),,,,,68.4396,,,,,,0.42,TIGER-Lab,,
+nvidia/openmath2-llama3.1-8b,mathematics,8.0303,8.0,131072.0,"mle:inherited(meta-llama/llama-3.1-8b-instruct), aies_feb25:inherited(meta-llama/llama-3.1-8b)",0.0951,0.4548,,,62.5536,,26.7372,6.1484,23.3059,,,,,
+nvidia/acemath-72b-instruct,mathematics,72.7062,72.7062,4096.0,aies_feb25:inherited(qwen/qwen2.5-72b-instruct),,,,,6730.3908,,71.4502,37.8971,49.4993,,,,,
+qwen/qwen2-math-72b-instruct,mathematics,72.7062,72.7062,4096.0,aies_feb25:inherited(qwen/qwen2.5-72b-instruct),,,,,6730.3908,,55.3625,36.3641,56.9381,,,,,
+qwen/qwen2.5-math-72b-instruct,mathematics,72.7062,72.7062,4096.0,aies_feb25:inherited(qwen/qwen2.5-72b-instruct),,,,,6730.3908,,62.3867,42.3574,40.0347,,,,,
+aaditya/llama3-openbiollm-70b,medicine,70.0,70.0,8192.0,"mle:inherited(meta-llama/llama-3.1-70b-instruct), aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,19.713,42.9669,75.9674,,,,,
+m42-health/llama3-med42-70b,medicine,70.5537,70.0,8192.0,"mle:inherited(meta-llama/llama-3.1-70b-instruct), aies_feb25:inherited(meta-llama/llama-2-70b-hf), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-llama-70b)",0.5634,3.7587,,,5934.618,178.308,22.5831,44.0289,62.9107,,,,,
+openai/gpt-oss-20b,reasoning,11.9568,4.0,131072.0,mle:direct,0.0784,0.3565,,,,,,,,,0.7314,TIGER-Lab,0.018,0.09
+qwen/qwen3-30b-a3b-thinking-2507,reasoning,30.5321,3.0,262144.0,"mle:direct, aies_dec25:inherited(qwen/qwen3-30b-a3b)",0.1986,0.8012,,,,134.568,,,,,0.809,Self-Reported,,
+qwen/qwq-32b,reasoning,32.7639,32.7639,40960.0,"aies_feb25:inherited(qwen/qwq-32b-preview), aies_dec25:inherited(deepseek-ai/deepseek-r1-distill-qwen-32b)",,,,,196.4016,131.904,16.0876,2.1775,39.7674,,0.6907,TIGER-Lab,,
+openai/gpt-oss-120b,reasoning,63.0814,5.0,131072.0,mle:direct,0.2226,0.6841,,,,,,,,,0.808,Self-Reported,0.0296,0.136
+qwen/qwen3-235b-a22b-thinking-2507,reasoning,235.0936,235.0936,262144.0,"mle:direct, aies_dec25:inherited(qwen/qwen3-235b-a22b)",,7.1954,,,,1100.916,,,,,0.845,Self-Reported,0.45,3.5

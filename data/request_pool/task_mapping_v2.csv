@@ -1,0 +1,113 @@
+source,task_raw,task,task_group,n_requests
+dolly,brainstorming,brainstorming,generation,50
+dolly,classification,classification,extraction,50
+dolly,closed_qa,qa,qa,10
+dolly,creative_writing,creative_writing,generation,50
+dolly,general_qa,qa,qa,12
+dolly,information_extraction,information_extraction,extraction,50
+dolly,open_qa,qa,qa,28
+dolly,summarization,summarization,summarization,50
+longbench_v1,2wikimqa,long_document_qa,qa,48
+longbench_v1,gov_report,summarization,summarization,54
+longbench_v1,hotpotqa,long_document_qa,qa,56
+longbench_v1,multi_news,summarization,summarization,39
+longbench_v1,multifieldqa_en,long_document_qa,qa,19
+longbench_v1,qasper,long_document_qa,qa,27
+longbench_v1,samsum,summarization,summarization,57
+longbench_v1,trec,in_context_learning,reasoning,69
+longbench_v1,triviaqa,in_context_learning,reasoning,81
+longbench_v2,Code Repository Understanding,code_understanding,code,15
+longbench_v2,Long In-context Learning,in_context_learning,reasoning,41
+longbench_v2,Long Structured Data Understanding,data_analysis,reasoning,6
+longbench_v2,Long-dialogue History Understanding,dialogue_qa,qa,39
+longbench_v2,Multi-Document QA,long_document_qa,qa,66
+longbench_v2,Single-Document QA,long_document_qa,qa,106
+magpie,Advice seeking,advice_seeking,generation,188
+magpie,Brainstorming,brainstorming,generation,153
+magpie,Coding & Debugging,code_generation,code,172
+magpie,Creative writing,creative_writing,generation,155
+magpie,Data analysis,data_analysis,reasoning,153
+magpie,Editing,editing,generation,152
+magpie,Information seeking,qa,qa,207
+magpie,Math,math_problem_solving,reasoning,250
+magpie,Planning,planning,generation,158
+magpie,Reasoning,reasoning,reasoning,182
+magpie,Role playing,role_playing,generation,162
+math,competition_math,math_problem_solving,reasoning,250
+routerarena,AIME,math_problem_solving,reasoning,22
+routerarena,ArcMMLU,qa,qa,111
+routerarena,AsDiv,math_problem_solving,reasoning,26
+routerarena,ChessInstruct,reasoning,reasoning,59
+routerarena,ChessInstruct_mcq,reasoning,reasoning,74
+routerarena,Ethics_commonsense,reasoning,reasoning,24
+routerarena,Ethics_deontology,reasoning,reasoning,13
+routerarena,Ethics_justice,reasoning,reasoning,22
+routerarena,Ethics_virtue,reasoning,reasoning,12
+routerarena,FinQA,data_analysis,reasoning,74
+routerarena,GSM8K,math_problem_solving,reasoning,6
+routerarena,GeoBench,qa,qa,22
+routerarena,GeoGraphyData_100k,qa,qa,5
+routerarena,LiveCodeBench,code_generation,code,145
+routerarena,MATH,math_problem_solving,reasoning,11
+routerarena,MMLUPro_biology,qa,qa,13
+routerarena,MMLUPro_business,qa,qa,30
+routerarena,MMLUPro_chemistry,qa,qa,5
+routerarena,MMLUPro_computer science,qa,qa,115
+routerarena,MMLUPro_economics,qa,qa,29
+routerarena,MMLUPro_engineering,qa,qa,23
+routerarena,MMLUPro_health,qa,qa,17
+routerarena,MMLUPro_history,qa,qa,20
+routerarena,MMLUPro_law,qa,qa,30
+routerarena,MMLUPro_math,math_problem_solving,reasoning,47
+routerarena,MMLUPro_philosophy,qa,qa,6
+routerarena,MMLUPro_physics,qa,qa,3
+routerarena,MMLUPro_psychology,qa,qa,35
+routerarena,MMLU_formal_logic,reasoning,reasoning,23
+routerarena,MMLU_management,qa,qa,11
+routerarena,MathQA,math_problem_solving,reasoning,38
+routerarena,MedMCQA,qa,qa,27
+routerarena,MusicTheoryBench,qa,qa,20
+routerarena,NarrativeQA,long_document_qa,qa,86
+routerarena,OpenTDB_Animals,qa,qa,1
+routerarena,OpenTDB_Art,qa,qa,2
+routerarena,OpenTDB_Celebrities,qa,qa,4
+routerarena,OpenTDB_Entertainment: Board Games,qa,qa,3
+routerarena,OpenTDB_Entertainment: Books,qa,qa,4
+routerarena,OpenTDB_Entertainment: Comics,qa,qa,2
+routerarena,OpenTDB_Entertainment: Film,qa,qa,1
+routerarena,OpenTDB_Entertainment: Japanese Anime & Manga,qa,qa,1
+routerarena,OpenTDB_Entertainment: Musicals & Theatres,qa,qa,2
+routerarena,OpenTDB_Entertainment: Television,qa,qa,5
+routerarena,OpenTDB_Entertainment: Video Games,qa,qa,17
+routerarena,OpenTDB_General Knowledge,qa,qa,14
+routerarena,OpenTDB_Geography,qa,qa,3
+routerarena,OpenTDB_History,qa,qa,2
+routerarena,OpenTDB_Science & Nature,qa,qa,3
+routerarena,OpenTDB_Science: Computers,qa,qa,15
+routerarena,OpenTDB_Science: Mathematics,qa,qa,32
+routerarena,OpenTDB_Sports,qa,qa,4
+routerarena,PubMedQA,qa,qa,26
+routerarena,QANTA_Fine Arts,qa,qa,5
+routerarena,QANTA_Geography,qa,qa,6
+routerarena,QANTA_History,qa,qa,13
+routerarena,QANTA_Literature,qa,qa,25
+routerarena,QANTA_Philosophy,qa,qa,2
+routerarena,QANTA_Science,qa,qa,10
+routerarena,QANTA_Social Science,qa,qa,15
+routerarena,SocialiQA,reasoning,reasoning,61
+routerarena,SuperGLUE-CausalReasoning,reasoning,reasoning,2
+routerarena,SuperGLUE-ClozeTest,qa,qa,8
+routerarena,SuperGLUE-Entailment,reasoning,reasoning,16
+routerarena,SuperGLUE-QA,qa,qa,9
+routerarena,SuperGLUE-RC,qa,qa,4
+routerarena,SuperGLUE-Wic,qa,qa,9
+routerarena,SuperGLUE-Wsc,reasoning,reasoning,7
+routerarena,WMT19-cs-en,translation,translation,3
+routerarena,WMT19-de-en,translation,translation,15
+routerarena,WMT19-fi-en,translation,translation,6
+routerarena,WMT19-gu-en,translation,translation,16
+routerarena,WMT19-kk-en,translation,translation,2
+routerarena,WMT19-lt-en,translation,translation,3
+routerarena,WMT19-ru-en,translation,translation,1
+routerarena,WMT19-zh-en,translation,translation,4
+taco,competitive_programming,code_generation,code,250

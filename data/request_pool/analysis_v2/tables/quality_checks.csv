@@ -1,0 +1,8 @@
+,count
+requests,5042
+duplicate texts,0
+empty texts,0
+texts mostly in CJK script (> 5%),1
+requests over the token limit,0
+requests without task_group,0
+translation requests without instruction,0

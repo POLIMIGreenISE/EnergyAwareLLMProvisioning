@@ -1,0 +1,242 @@
+{
+  "SEED": 42,
+  "POOL_VERSION": "v1.3",
+  "MODEL_POOL_PATH": "/content/drive/MyDrive/thesis/model_pool/model_pool_core_v1.3.parquet",
+  "BATCH_CURVE_PATH": "/content/drive/MyDrive/thesis/model_pool/mlenergy_batch_curve_v1.3.parquet",
+  "REQUEST_POOL_PATH": "/content/drive/MyDrive/thesis/request_pool/request_pool_v2.parquet",
+  "ESTIMATES_PATH": "/content/drive/MyDrive/thesis/request_estimates/request_estimates_v1.parquet",
+  "OUTPUT_DIR": "/content/drive/MyDrive/thesis/pipeline_v9",
+  "N_REQUESTS": 200,
+  "DOMAIN_MIX": null,
+  "TIER_MIX": {
+    "Economy": 0.2,
+    "Standard": 0.6,
+    "Premium": 0.2
+  },
+  "EXCLUDE_SOURCES": [
+    "longbench_v1",
+    "longbench_v2"
+  ],
+  "REFERENCE_SOURCE": "magpie",
+  "FAILED_GENERATION_TOKENS": 3900,
+  "QUALITY_SCALE": "absolute",
+  "W_DOMAIN": 0.5,
+  "W_TASK": 0.5,
+  "ALPHA_COMPLEXITY": 0.5,
+  "DEFAULT_COMPLEXITY": 0.5,
+  "TIER_RATIO": {
+    "Economy": 0.5,
+    "Standard": 0.75,
+    "Premium": 0.95
+  },
+  "WORKLOAD_DURATION_S": 600,
+  "BATCH": 128,
+  "ENERGY_ACCOUNTING": "marginal",
+  "ALREADY_ACTIVE": [],
+  "ENFORCE_CAPACITY": true,
+  "SOLVER_TIME_LIMIT_S": 600,
+  "DIAGNOSIS_TIME_LIMIT_S": 60,
+  "INPUT_OUTPUT_RATIO": 150,
+  "USE_VERBOSITY": true,
+  "VERBOSITY_BATCH": 128,
+  "VERBOSITY_REFERENCE": "meta-llama/llama-3.1-70b-instruct",
+  "H100_NO_MODEL_W": 71.8,
+  "H100_IDLE_WITH_MODEL_W": 121.7,
+  "H100_LOADING_W": 124.0,
+  "LOAD_FIXED_S": 28.2,
+  "LOAD_GB_PER_S": 8.4,
+  "COST_MODE": "market",
+  "H100_USD_PER_HOUR": 2.74,
+  "BUDGET_MARGIN": 0.2,
+  "REFERENCE_TIER_RATIO": {
+    "Economy": 0.5,
+    "Standard": 0.75,
+    "Premium": 0.95
+  },
+  "REFERENCE_TIER_MIX": {
+    "Economy": 0.2,
+    "Standard": 0.6,
+    "Premium": 0.2
+  },
+  "REFERENCE_W_DOMAIN": 0.5,
+  "REFERENCE_W_TASK": 0.5,
+  "REFERENCE_ALPHA_COMPLEXITY": 0.5,
+  "SUBJECT_FOCUS": null,
+  "SUBJECT_FOCUS_SHARE": 1.0,
+  "HYPOTHETICAL_SPECIALIST": null,
+  "EXCLUDE_MODELS": [],
+  "HS_KEY": null,
+  "REFERENCE_LENGTH": 358.9296875,
+  "SUBJECTS_OF_DOMAIN": {
+    "mathematics": [
+      "math"
+    ],
+    "coding": [
+      "computer_science"
+    ],
+    "natural_sciences": [
+      "biology",
+      "chemistry",
+      "physics",
+      "health"
+    ],
+    "humanities": [
+      "history",
+      "philosophy"
+    ],
+    "social_sciences": [
+      "economics",
+      "psychology",
+      "law",
+      "business"
+    ],
+    "general": null
+  },
+  "SUBJECT_OF_DEWEY": {
+    "61": [
+      "health"
+    ],
+    "57": [
+      "biology"
+    ],
+    "59": [
+      "biology"
+    ],
+    "53": [
+      "physics"
+    ],
+    "54": [
+      "chemistry"
+    ],
+    "62": [
+      "engineering"
+    ],
+    "51": [
+      "math"
+    ],
+    "00": [
+      "computer_science"
+    ],
+    "33": [
+      "economics"
+    ],
+    "34": [
+      "law"
+    ],
+    "15": [
+      "psychology"
+    ],
+    "65": [
+      "business"
+    ],
+    "10": [
+      "philosophy"
+    ],
+    "16": [
+      "philosophy"
+    ],
+    "17": [
+      "philosophy"
+    ],
+    "90": [
+      "history"
+    ],
+    "93": [
+      "history"
+    ],
+    "94": [
+      "history"
+    ]
+  },
+  "T_PREPARATION_START": 963.60854515,
+  "DIFFICULTY_LEVELS": {
+    "routerarena_easy_medium_hard": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "magpie_very_easy_to_very_hard": [
+      "very easy",
+      "easy",
+      "medium",
+      "hard",
+      "very hard"
+    ],
+    "math_level_1_to_5": [
+      "level 1",
+      "level 2",
+      "level 3",
+      "level 4",
+      "level 5"
+    ],
+    "taco_easy_to_very_hard": [
+      "easy",
+      "medium",
+      "medium hard",
+      "hard",
+      "very hard"
+    ],
+    "longbench_easy_hard": [
+      "easy",
+      "hard"
+    ]
+  },
+  "OLL": [
+    "oll_ifeval",
+    "oll_bbh",
+    "oll_math_lvl_5",
+    "oll_gpqa",
+    "oll_musr",
+    "oll_mmlu_pro"
+  ],
+  "TASK_BENCH": {
+    "qa": "oll_mmlu_pro",
+    "reasoning": "reasoning_mix",
+    "generation": "oll_ifeval",
+    "code": "subject:computer_science",
+    "summarization": "all6",
+    "extraction": "all6",
+    "translation": "all6"
+  },
+  "TASK_BENCH_FINE": {
+    "math_problem_solving": "oll_math_lvl_5"
+  },
+  "DP_LOAD": 52.2,
+  "DP_PARK": 49.900000000000006,
+  "REFERENCE_MODELS": [
+    "aaditya/llama3-openbiollm-70b",
+    "m42-health/llama3-med42-70b",
+    "meta-llama/llama-3.1-70b-instruct",
+    "meta-llama/llama-3.1-8b-instruct",
+    "meta-llama/llama-3.3-70b-instruct",
+    "meta-llama/meta-llama-3-70b-instruct",
+    "meta-llama/meta-llama-3-8b-instruct",
+    "nvidia/llama-3.1-nemotron-70b-instruct-hf",
+    "nvidia/openmath2-llama3.1-8b"
+  ],
+  "PREPARATION_SECONDS": 0.8072266719999561,
+  "NEEDED_TIME_S": 24.046461339835545,
+  "OFFERED_TIME_S": 5039.804924708572,
+  "CAPACITY_PROVEN_INFEASIBLE": false,
+  "CHEAPEST_COST_USD": 0.03506991127222863,
+  "BUDGET_SECONDS": 0.014363707000029535,
+  "T_MILP_START": 964.470269898,
+  "MILP_BUILD_SECONDS": 0.15340019200004917,
+  "MILP_SOLVE_SECONDS": 0.11594673199999761,
+  "MILP_STATUS": "optimal",
+  "SUBJECT_OF_ROLE": {
+    "mathematics": "math",
+    "medicine": "health"
+  },
+  "DECISION_SECONDS": {
+    "Facility-location MILP": 0.2693469240000468,
+    "Quality-First": 0.007502398000042376,
+    "Cost-First": 0.0295176330000686,
+    "Energy-First (per request)": 0.026660383000034926,
+    "Random (mean of 300)": 0.0005897999533336436,
+    "Single model": 0.08776164799996877,
+    "Greedy facility location": 0.06472868399998788
+  },
+  "E_LB": 174057.4605992324,
+  "LOWER_BOUND_SECONDS": 0.02502094399994803
+}

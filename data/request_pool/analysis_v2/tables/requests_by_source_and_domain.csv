@@ -1,0 +1,9 @@
+source,(to classify),coding,general,humanities,mathematics,natural_sciences,social_sciences,total
+dolly,300,0,0,0,0,0,0,300
+longbench_v1,450,0,0,0,0,0,0,450
+longbench_v2,162,15,0,32,0,0,64,273
+magpie,1510,172,0,0,250,0,0,1932
+math,0,0,0,0,250,0,0,250
+routerarena,0,289,276,405,182,150,285,1587
+taco,0,250,0,0,0,0,0,250
+total,2422,726,276,437,682,150,349,5042

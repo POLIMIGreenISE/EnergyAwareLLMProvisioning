@@ -1,0 +1,11 @@
+,specialist,generalist,domain,energy_j_per_token,mmlupro_oll_health_specialist,mmlupro_oll_health_generalist,oll_mmlu_pro_specialist,oll_mmlu_pro_generalist,oll_math_lvl_5_specialist,oll_math_lvl_5_generalist,mmlupro_oll_math_specialist,mmlupro_oll_math_generalist
+0,aaditya/llama3-openbiollm-70b,meta-llama/llama-3.1-70b-instruct,medicine,0.5633656270485234,67.4,67.4,43.0,47.9,,,,
+1,aaditya/llama3-openbiollm-70b,meta-llama/llama-3.3-70b-instruct,medicine,0.5633656270485234,67.4,67.6,43.0,48.1,,,,
+2,aaditya/llama3-openbiollm-70b,meta-llama/meta-llama-3-70b-instruct,medicine,0.5633656270485234,67.4,65.3,43.0,46.7,,,,
+3,aaditya/llama3-openbiollm-70b,nvidia/llama-3.1-nemotron-70b-instruct-hf,medicine,0.5633656270485234,67.4,63.4,43.0,43.5,,,,
+4,m42-health/llama3-med42-70b,meta-llama/llama-3.1-70b-instruct,medicine,0.5633656270485234,66.3,67.4,44.0,47.9,,,,
+5,m42-health/llama3-med42-70b,meta-llama/llama-3.3-70b-instruct,medicine,0.5633656270485234,66.3,67.6,44.0,48.1,,,,
+6,m42-health/llama3-med42-70b,meta-llama/meta-llama-3-70b-instruct,medicine,0.5633656270485234,66.3,65.3,44.0,46.7,,,,
+7,m42-health/llama3-med42-70b,nvidia/llama-3.1-nemotron-70b-instruct-hf,medicine,0.5633656270485234,66.3,63.4,44.0,43.5,,,,
+8,nvidia/openmath2-llama3.1-8b,meta-llama/llama-3.1-8b-instruct,mathematics,0.09510991243206074,,,6.1,31.1,26.7,15.6,15.9,24.5
+9,nvidia/openmath2-llama3.1-8b,meta-llama/meta-llama-3-8b-instruct,mathematics,0.09510991243206074,,,6.1,28.8,26.7,9.1,15.9,23.3
